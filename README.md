@@ -31,6 +31,8 @@ https://feiqa.xgqfrms.xyz/index.html
 
 > html.json
 
+C:\Users\xray\AppData\Roaming\Code\User\snippets\html.json
+
 ```json
 
 {
