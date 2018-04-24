@@ -1,0 +1,16 @@
+{
+    "SCSS/SaSS Template": {
+        "prefix": "scss",
+        "body": [
+            "@charset \"UTf-8\";",
+            "",
+            "/* $1.scss */\n",
+            ":root {",
+            "   --cololr: $2;",
+            "   --default-cololr: $2;",
+            "   --new-cololr: $3;",
+            "}",
+        ],
+        "description": "SaSS/SCSS Template & code snippets!"
+    }
+}
