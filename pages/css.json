@@ -1,0 +1,16 @@
+{
+    "CSS3 Template": {
+        "prefix": "c3t",
+        "body": [
+            "@charset \"UTf-8\";",
+            "",
+            "/* $1.css */\n",
+            ":root {",
+            "   --cololr: $2;",
+            "   --default-cololr: $2;",
+            "   --new-cololr: $3;",
+            "}",
+        ],
+        "description": "CSS3 Template & code snippets!"
+    }
+}
