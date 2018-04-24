@@ -1,0 +1,25 @@
+{
+    "TypeScript ES6 Template": {
+        "prefix": "ts6",
+        "body": [
+            "\"use strict\";",
+            "",
+            "/**",
+            " * ",
+            " * @author xgqfrms",
+            " * @license MIT",
+            " * @copyright $1",
+            " * @description $2",
+            " * @augments $3",
+            " * @example $4",
+            "*",
+            " */",
+            "const $4 = ($5 = ``, debug = false) => {",
+            "    // do something...",
+            "    return $7;",
+            "};",
+            "",
+        ],
+        "description": "TypeScript ES6 Template & code snippets!"
+    }
+}
