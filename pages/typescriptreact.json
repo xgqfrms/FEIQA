@@ -1,0 +1,25 @@
+{
+    "TypeScript ES6 React Template": {
+        "prefix": "ts6r",
+        "body": [
+            "\"use strict\";",
+            "",
+            "/**",
+            " * ",
+            " * @author xgqfrms",
+            " * @license MIT",
+            " * @copyright $1",
+            " * @description $2",
+            " * @augments $3",
+            " * @example $4",
+            "*",
+            " */",
+            "const $4 = ($5 = ``, debug = false) => {",
+            "    // do something...",
+            "    return $7;",
+            "};",
+            "",
+        ],
+        "description": "TypeScript ES6 React Template & code snippets!"
+    }
+}
