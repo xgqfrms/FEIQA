@@ -31,7 +31,7 @@ https://feiqa.xgqfrms.xyz/index.html
 
 > html.json
 
-C:\Users\**\Code\User\snippets\html.json
+> `C:\Users\**\Code\User\snippets\html.json`
 
 ```json
 
