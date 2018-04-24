@@ -1,0 +1,8 @@
+coverage/
+examples/
+test/
+# .editorconfig
+# .npmignore
+# .travis.yml
+# CONTRIBUTING.md
+dotenv.png

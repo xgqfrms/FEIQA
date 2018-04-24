@@ -1,0 +1,37 @@
+{
+    "env": {
+        "browser": true,
+        "node": true
+    },
+    "parserOptions": {
+        "ecmaVersion": 6,
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "sourceType": "module"
+    },
+    "globals": {
+        "angular": true
+    },
+    "plugins": [
+        "react"
+    ],
+    "extends": ["eslint:recommended", "plugin:react/recommended"],
+    "rules": {
+        "camelcase": 1,
+        "curly": 1,
+        "brace-style": [2, "1tbs"],
+        "quotes": ["warn", "double"],
+        "semi": [2, "always"],
+        "object-curly-spacing": [1, "never"],
+        "array-bracket-spacing": [1, "never"],
+        "computed-property-spacing": [1, "never"],
+        "space-infix-ops": 2
+    },
+    "settings": {
+        "react": {
+            "pragma": "React",
+            "version": "15.6.1"
+        }
+    }
+}
