@@ -12,7 +12,7 @@
             " * @description $2",
             " * @augments $3",
             " * @example $4",
-            "*",
+            " * ",
             " */",
             "const $4 = ($5 = ``, debug = false) => {",
             "    // do something...",
