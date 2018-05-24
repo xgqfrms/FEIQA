@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML5 Files API</title>
+</head>
+<body>
+    <section>
+        <h1></h1>
+        <a href="https://feiqa.xgqfrms.xyz/index.html"></a>
+        <div>
+            <input type="text" value="test.xml" id="inputFileNameToSaveAs">
+            <pre id="inputTextToSave">
+                &lt;xml&gt;
+                    &lt;key&gt;xml test&lt;/key&gt;
+                &lt;xml&gt;
+            </pre>
+        </div>
+    </section>
+    <script>
+        function saveTextAsFile() {
+            // var textToWrite = document.getElementById("inputTextToSave").innerHTML;
+            var textToWrite = document.getElementById("inputTextToSave").innerText;// string
+            // var textToWrite = document.getElementById("inputTextToSave").value;
+            var textFileAsBlob = new Blob([textToWrite], {type:'text/plain'});
+            var fileNameToSaveAs = document.getElementById("inputFileNameToSaveAs").value;
+            var downloadLink = document.createElement("a");
+            downloadLink.download = fileNameToSaveAs;
+            downloadLink.innerHTML = "Download File";
+            // if (window.webkitURL !== null){
+            if (window.URL !== null){
+                // Chrome allows the link to be clicked
+                // without actually adding it to the DOM.
+                // downloadLink.href = window.webkitURL.createObjectURL(textFileAsBlob);
+                downloadLink.href = window.URL.createObjectURL(textFileAsBlob);
+            } else {
+                // Firefox requires the link to be added to the DOM
+                // before it can be clicked.
+                downloadLink.href = window.URL.createObjectURL(textFileAsBlob);
+                downloadLink.onclick = destroyClickedElement;
+                downloadLink.style.display = "none";
+                document.body.appendChild(downloadLink);
+            }
+            downloadLink.click();
+        }
+    </script>
+</body>
+</html>
