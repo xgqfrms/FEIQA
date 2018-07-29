@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="xgqfrms">
+    <meta name="generator" content="VS code">
+    <title>F10 Framework App</title>
+    <!-- css -->
+    <link rel="stylesheet" href="./f10-framework-app.css">
+</head>
+<body>
+    <section>
+        <h1>F10 Framework App</h1>
+    </section>
+    <section>
+        <div data-box="container">
+            <div>
+                <div data-force="5" class="layer title title_xl">Drag handle and selectable text</div>
+            </div>
+            <div class="block__list_words">
+                <ul id="handle-1">
+                    <li draggable="false">
+                        <span class="drag-handle">☰</span>
+                        <span>select text freely</span>
+                        <div data-modules="safety-content">
+                            un-selectable text<br/>
+                            un-selectable text<br/>
+                            un-selectable text<br/>
+                        </div>
+                    </li>
+                    <li draggable="false">
+                        <span class="drag-handle">☰</span>
+                        <span>drag my handle</span>
+                        <div data-modules="safety-content">
+                            only handle can drag <br/>
+                            only handle can drag <br/>
+                            only handle can drag <br/>
+                        </div>
+                    </li>
+                    <li draggable="false">
+                        <span class="drag-handle">☰</span>
+                        <span>best of both worlds</span>
+                        <div data-modules="safety-content">
+                            for better UX <br/>
+                            for better UX <br/>
+                            for better UX <br/>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!-- libs -->
+    <!-- <script src="https://cdn.xgqfrms.xyz/Sortable/sortable.min.js"></script> -->
+    <script src="./libs/Sortable.min.js"></script>
+    <!-- js -->
+    <script src="./f10-framework-app.js"></script>
+</body>
+</html>

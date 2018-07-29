@@ -38,5 +38,6 @@
         "*.jsx": "javascriptreact",
         "*.js": "javascriptreact"
     },
-    "editor.snippetSuggestions": "top"
+    "editor.snippetSuggestions": "top",
+    "css-auto-prefix.enabled": true
 }

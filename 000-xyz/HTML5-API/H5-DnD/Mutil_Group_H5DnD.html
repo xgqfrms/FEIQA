@@ -10,7 +10,7 @@
         .layer {
             float: left;
         }
-        
+
         .tile__list {
             box-sizing: border-box;
             border: 1px solid red;
@@ -21,7 +21,7 @@
             margin: 10px;
             /* overflow-y: scroll; */
         }
-        
+
         img {
             box-sizing: border-box;
             padding: 0;
@@ -29,7 +29,7 @@
             border: 1px solid #0f0;
             float: left;
         }
-        
+
         .tile__name {
             color: #0f0;
             box-sizing: border-box;
@@ -51,24 +51,24 @@
             cursor: -webkit-grab;
             cursor: grab; */
         }
-        
+
         .tile__list>img:nth-of-type(1) {
             background: red;
         }
-        
+
         .tile__list>img:nth-of-type(2) {
             background: #f0f;
         }
-        
+
         .tile__list>img:nth-of-type(3) {
             background: #0f0;
         }
-        
+
         .tile__list>img:nth-of-type(4) {
             background: rgb(255, 72, 0);
         }
         /* delete-uid */
-        
+
         .delete-uid {
             position: absolute;
             z-index: 99999;
@@ -79,7 +79,7 @@
             /* content: "delete"; */
             color: red;
         }
-        
+
         [data-div*="0"] {
             position: relative;
             width: 102px;
@@ -87,16 +87,16 @@
             background-color: #f0f;
             cursor: move;
         }
-        
+
         [data-delete="delete-uid"] {
             position: absolute;
         }
-        
+
         [data-delete="delete-img-uid"]:nth-of-type(n) {
             top: 0px;
             font-size: 12px;
         }
-        
+
         [data-btn*="delete-btn"]:hover {
             cursor: pointer;
         }
@@ -158,7 +158,8 @@
         </div>
     </section>
     <!-- js:libs -->
-    <script src="https://rubaxa.github.io/Sortable/Sortable.js"></script>
+    <script src="./libs/Sortable.js"></script>
+    <!-- <script src="https://rubaxa.github.io/Sortable/Sortable.js"></script> -->
     <script>
         // Multi groups
         var byId = function(id) {
@@ -240,12 +241,12 @@
     </script>
     <script>
         /*
-                            // data-key*="partly-value"
-                            imgs = document.querySelectorAll(`[data-uid*="0"]`);// OK
-                            imgs = document.querySelectorAll(`[data-uid*=""]`);// Error
-                            imgs = document.querySelectorAll(`[data-*="0"]`);// Error
-                            imgs = document.querySelectorAll(`[data*=""]`);// Error
-                        */
+            // data-key*="partly-value"
+            imgs = document.querySelectorAll(`[data-uid*="0"]`);// OK
+            imgs = document.querySelectorAll(`[data-uid*=""]`);// Error
+            imgs = document.querySelectorAll(`[data-*="0"]`);// Error
+            imgs = document.querySelectorAll(`[data*=""]`);// Error
+        */
         // shit auto format
         /*
             // Virtual DOM

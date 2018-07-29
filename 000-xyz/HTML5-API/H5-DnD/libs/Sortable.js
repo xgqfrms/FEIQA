@@ -1,17 +1,23 @@
 /**!
- * Sortable
- * @author	RubaXa   <trash@rubaxa.org>
+ * @description Sortable
+ * @author RubaXa <trash@rubaxa.org>
+ * @author xgqfrm 2018.07.07
  * @license MIT
+ * @link http://github.com/rubaxa/Sortable
+ *
  */
 
 (function sortableModule(factory) {
     "use strict";
+    // AMD
     if (typeof define === "function" && define.amd) {
         define(factory);
     }
+    // CMD
     else if (typeof module != "undefined" && typeof module.exports != "undefined") {
         module.exports = factory();
     }
+    // UMD
     else {
         /* jshint sub:true */
         window["Sortable"] = factory();
@@ -224,7 +230,6 @@
 
         this.el = el; // root element
         this.options = options = _extend({}, options);
-
 
         // Export instance
         el[expando] = this;

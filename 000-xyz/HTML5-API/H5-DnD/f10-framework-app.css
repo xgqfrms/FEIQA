@@ -1,0 +1,81 @@
+@charset "UTf-8";
+
+/* f10-framework-app.css */
+
+html, body {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    color: #464637;
+    min-height: 100%;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+html {
+    background-image: linear-gradient(to bottom, #F4E2C9 20%, #F4D7C9 100%);
+}
+
+.layer {
+    /* float: left; */
+}
+
+.title {
+    color: #fff;
+    padding: 3px 10px;
+    display: inline-block;
+    position: relative;
+    background-color: #FF7373;
+    z-index: 1000;
+    margin: 10px;
+}
+
+.title_xl {
+    padding: 3px 15px;
+    font-size: 40px;
+}
+
+
+ul {
+    list-style: none;
+    margin: 0;
+    /* padding: 0; */
+    padding: 5px;
+    display: block;
+    background: #ccc;
+}
+
+.block__list_words {
+    width: 50%;
+    margin: 10px;
+}
+.block__list_words li {
+    background-color: #fff;
+    padding: 10px 40px;
+    /* display: inline-block; */
+    display: block;
+    border: 1px solid #5F9EDF;
+    margin: 5px;
+}
+
+.block__list_words li:first-letter {
+    text-transform: uppercase;
+}
+
+.drag-handle {
+    margin-right: 10px;
+    font: bold 20px Sans-Serif;
+    color: #5F9EDF;
+    display: inline-block;
+    /* css fallback */
+    cursor: move;
+    cursor: grabbing;
+    user-select: none;
+}
+
+[data-modules="safety-content"]{
+    user-select: none;
+    color: #fff;
+    background: #000;
+}
