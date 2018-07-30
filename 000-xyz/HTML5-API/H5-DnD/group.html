@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="xgqfrms">
+    <meta name="generator" content="VS code">
+    <title>groupe &amp; drag handle</title>
+    <!-- css -->
+    <link rel="stylesheet" href="./group.css">
+</head>
+<body>
+    <section>
+        <h1>groupe &amp; drag handle</h1>
+    </section>
+    <section>
+        <div data-box="container">
+            <div class="boxes-conatiner" id="boxes_conatiner">
+                <div data-id="modules-conatiner-box" class="modules-conatiner-box">
+                    <div data-id="modules-conatiner-title" class="modules-conatiner-title">conatiner title 1</div>
+                    <ul data-id="modules-conatiner" class="modules-conatiner">
+                        <li draggable="false" class="module">
+                            <span class="drag-handle">☰</span>
+                            <span class="drag-handle-title">title 1</span>
+                            <div data-modules="safety-content">
+                                un-selectable text<br/> un-selectable text<br/> un-selectable text<br/>
+                            </div>
+                        </li>
+                        <li draggable="false" class="module">
+                            <span class="drag-handle">☰</span>
+                            <span class="drag-handle-title">title 2</span>
+                            <div data-modules="safety-content">
+                                only handle can drag <br/> only handle can drag <br/> only handle can drag <br/>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div data-id="modules-conatiner-box" class="modules-conatiner-box">
+                    <div data-id="modules-conatiner-title" class="modules-conatiner-title">conatiner title 2</div>
+                    <ul data-id="modules-conatiner" class="modules-conatiner">
+                        <li draggable="false" class="module">
+                            <span class="drag-handle">☰</span>
+                            <span class="drag-handle-title">title 3</span>
+                            <div data-modules="safety-content">
+                                for better UX <br/> for better UX <br/> for better UX <br/>
+                            </div>
+                        </li>
+                        <li draggable="false" class="module">
+                            <span class="drag-handle">☰</span>
+                            <span class="drag-handle-title">title 4</span>
+                            <div data-modules="safety-content">
+                                un-selectable text<br/> un-selectable text<br/> un-selectable text<br/>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- libs -->
+    <script src="https://cdn.xgqfrms.xyz/Sortable/sortable.min.js"></script>
+    <!-- <script src="./libs/Sortable.min.js"></script> -->
+    <!-- js -->
+     <script src="./group.js"></script>
+
+</body>
+</html>
+
