@@ -1,0 +1,16 @@
+@charset "UTf-8";
+
+/* css-border.css */
+
+/* :root {
+   --cololr: ;
+   --default-cololr: ;
+   --new-cololr: ;
+} */
+
+.css-border{
+    position: relative;
+    width: 200px;
+    height: 60px;
+    background: #ddd;
+}

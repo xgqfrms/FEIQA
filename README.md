@@ -5,6 +5,21 @@
 https://feiqa.xgqfrms.xyz/index.html
 
 
+```sh
+
+$ browser-sync start --server --files --port 8888 "./000-xyz/CSS-tricks/**/*.html"
+$ browser-sync start -s -f -p 8888 "./000-xyz/CSS-tricks/**/*.html"
+
+# http://localhost:3000/css-border.html
+
+$ cd 000-xyz/CSS-tricks && browser-sync start -s -f -p 8888 "./*.html"
+
+```
+https://www.sitepoint.com/improve-workflow-browsersync-2-0/
+
+https://scotch.io/tutorials/how-to-use-browsersync-for-faster-development
+
+
 ## VS code & snippets
 
 ```md
