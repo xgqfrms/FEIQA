@@ -2,6 +2,14 @@
 
 https://github.com/xgqfrms/FEIQA/tree/master/000-xyz/templates
 
+## VS Code & code snippets bat export
+
+> feature wanted
+
+![image](https://user-images.githubusercontent.com/7291672/64147497-069bec00-ce53-11e9-9e02-834b31d465e8.png)
+
+
+
 ## c3t
 
 ```json
