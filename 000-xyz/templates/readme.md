@@ -2,6 +2,8 @@
 
 https://github.com/xgqfrms/FEIQA/tree/master/000-xyz/templates
 
+https://www.cnblogs.com/xgqfrms/p/9226993.html
+
 ## VS Code & code snippets bat export
 
 > feature wanted
